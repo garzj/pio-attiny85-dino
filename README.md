@@ -2,6 +2,12 @@
 
 A little dino game for the ATTiny85 USB using platform io.
 
+![Game preview](./game.gif)
+
+The microcontroller simulates a keyboard and uses the CAPS lock LED signal to receive input.
+
+This project was tested using Windows `notepad.exe`, keyboard combinations may not move the cursor correctly anywhere else.
+
 ## Setup
 
 - Buy the microcontroller: https://amzn.eu/d/fbsHuZK
@@ -14,5 +20,7 @@ A little dino game for the ATTiny85 USB using platform io.
 
 ## How to play
 
-- Open `notepad.exe` or some other editor
+- Plug the ATTiny85 into any PC running Windows
+- Use an US keyboard layout
+- Open `notepad.exe`
 - Make sure it's in focus and plug in the ATTiny85
